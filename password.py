@@ -5,3 +5,6 @@ def password(a):
     p = "".join(random.sample(chars, a))
     print(p)
 
+a = int(input("Password Length: "))
+
+password(a)

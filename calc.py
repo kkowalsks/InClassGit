@@ -8,4 +8,7 @@ def calc(a, b):
     divide = a / b
     print(divide)
 
-calc(10,5)
+a = int(input("First number: "))
+b = int(input("Second number: "))
+
+calc(a, b)

@@ -1,2 +1,5 @@
+import random
+
 def password(a):
-    pass
+    chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+    
